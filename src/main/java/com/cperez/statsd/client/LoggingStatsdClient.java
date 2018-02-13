@@ -15,7 +15,7 @@ public class LoggingStatsdClient extends ConvenienceMethodProvidingStatsDClient 
 
 	@Override
 	public void count(String aspect, long delta, double sampleRate) {
-		log.info("count.{}:{}|c|@{}", aspect, sampleRate, delta);
+		log.debug("count.{}:{}|c|@{}", aspect, sampleRate, delta);
 	}
 
 	@Override
