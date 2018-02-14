@@ -11,12 +11,12 @@ Out of the box metrics, by enabling statsd you also got every metric generated b
 <dependency>
     <groupId>com.github.cristianoperez</groupId>
     <artifactId>statsd-autoconfiguration</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
 ## Gradle
-`compile 'com.github.cristianoperez:statsd-autoconfiguration:1.0.0'`
+`compile 'com.github.cristianoperez:statsd-autoconfiguration:1.0.1'`
 
 ## Sample
 ```
