@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.cperez.statsd.client.producer.StatsdMetricsProducer,\
+com.cperez.statsd.client.producer.LoggingStatsdClientProducer,\
+com.cperez.statsd.client.producer.StatsdClientProducer
