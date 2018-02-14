@@ -4,7 +4,7 @@
 
 	<groupId>com.github.cristianoperez</groupId>
 	<artifactId>statsd-autoconfiguration</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>statsd-autoconfiguration</name>
@@ -95,7 +95,7 @@
 		<connection>scm:git:git@github.com:cristianoperez/statsd-autoconfiguration.git</connection>
 		<developerConnection>scm:git:git@github.com:cristianoperez/statsd-autoconfiguration.git</developerConnection>
 		<url>scm:git:git@github.com:cristianoperez/statsd-autoconfiguration.git</url>
-	  <tag>statsd-autoconfiguration-1.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
