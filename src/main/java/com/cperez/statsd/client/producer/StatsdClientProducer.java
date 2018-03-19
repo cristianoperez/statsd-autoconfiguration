@@ -22,6 +22,6 @@ public class StatsdClientProducer {
 
 	@Bean
 	public StatsDClient statsdClient() {
-		return new NonBlockingStatsDClient(prefix, host, port, new LoggingStatsdErrorHandler());
+		return new NonBlockingStatsDClient(prefix, host, port, null, new LoggingStatsdErrorHandler());
 	}
 }

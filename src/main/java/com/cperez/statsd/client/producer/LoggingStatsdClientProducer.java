@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.cperez.statsd.client.LoggingStatsdClient;
+import com.timgroup.statsd.NoOpStatsDClient;
 import com.timgroup.statsd.StatsDClient;
 
 @ConditionalOnProperty(name = "spring.statsd.enable", havingValue = "false")
@@ -13,6 +13,6 @@ public class LoggingStatsdClientProducer {
 
 	@Bean
 	public StatsDClient statsDClient() {
-		return new LoggingStatsdClient();
+		return new NoOpStatsDClient();
 	}
 }

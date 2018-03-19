@@ -36,7 +36,7 @@ Will generate `metrics.login.success:1|c`
 
 application.properties
 ```
-spring.statsd.enable=true/false (Enable/Disable statsd configuration, if disabled will log every call as debug. Default: true)
+spring.statsd.enable=true/false (Enable/Disable statsd configuration. Default: true)
 spring.statsd.metrics=true/false (Enable/Disable metrics generation. Default: true)
 spring.statsd.prefix="" (Metric prefix. Default: metrics)
 spring.statsd.host="" (StatsD host. Default: localhost)
